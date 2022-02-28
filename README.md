@@ -40,4 +40,6 @@ The main goal for the business owner is to have this website serve as an online 
 + I would like to use the contact form to book a table or check availabilty of certain types of foods.
 
 ## Wireframes
-The following image shows a wireframe of each of the pages of the site. These wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/).
+The following image shows a wireframe of each of the 4 pages of the site. These wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/).
+
+<img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/wireframePNG.png">

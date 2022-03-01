@@ -20,7 +20,8 @@ header {
     /* fallback color if gradient does not show up */
     background-color: #FF007F;
     padding: 32px;
-    border-bottom: 5px solid #FF8AC4;
+    /* border-bottom: 5px solid #FF8AC4; */
+    border-bottom: 5px solid #008873;
     height: 124px;
 }
 
@@ -47,7 +48,7 @@ header {
     width: 100%;
 }
 
-.menuHolder {
+#menu-holder {
     float: right;
     margin-right: 3rem;
     line-height: 60px;
@@ -62,6 +63,7 @@ nav li {
 
 nav li:hover {
     background-color: #FF007F;
+    border-bottom: 5px solid #008873;
 }
 
 nav a {
@@ -69,12 +71,57 @@ nav a {
     color: white;
 }
 
-/* FOr medium screen sizes from 800px wide and below */
+/* Hero image section */
+#hero-holder {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for the hero image */
+@keyframes hero-image-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#hero-overlay-text-box {
+    color: white;
+    letter-spacing: 5px;
+    padding: 4rem;
+    position: absolute;
+    /* left: 15%; */
+    top: 33%;
+    background-color: rgba(0, 136, 115, 0.7);
+    /* background-color: rgba(255, 0, 127, 0.5); */
+}
+
+/* MEDIA QUERIES SECTION */
+
+/* For medium screen sizes from 800px wide and below */
 @media screen and (max-width: 800px) {
     header {
         height: 164px;
     }
-    .menuHolder {
+    #hero-holder, #hero-image {
+        height: 400px;
+    }
+    #menu-holder {
         margin-left: 2rem;
         margin-top: 10px;
         clear: left;
@@ -88,7 +135,16 @@ nav a {
 
 /* For smartphone screen sizes 600px and below */
 @media screen and (max-width: 600px) {
-    .menuHolder{
+    #hero-holder, #hero-image {
+        height: 300px;
+    }
+    #hero-overlay-text-box {
+        padding: 4rem;
+        position: absolute;
+        /* left: 15%; */
+        top: 15%;
+    }
+    #menu-holder {
         margin-right: 1rem;
     }
     nav li {

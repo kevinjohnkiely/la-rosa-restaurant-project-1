@@ -111,6 +111,14 @@ nav a {
     /* background-color: rgba(255, 0, 127, 0.5); */
 }
 
+/* Footer section */
+footer {
+    padding: 4rem;
+    text-align: center;
+    color: white;
+    background-color: #008873;
+}
+
 /* MEDIA QUERIES SECTION */
 
 /* For medium screen sizes from 800px wide and below */
@@ -151,5 +159,9 @@ nav a {
         margin: 0 5px 0 5px;
         padding: 0 5px 0 5px;
         font-size: 14px;
+    }
+    footer {
+        padding: 2rem;
+        font-size: smaller;
     }
 }

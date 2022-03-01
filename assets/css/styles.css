@@ -1,5 +1,99 @@
-h1 {
-    font-family: 'Courier New', Courier, monospace;
-    color: red;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* Header section */
+
+header {
+    background-image: linear-gradient(to left, #75003A, #FF007F);
+    /* fallback color if gradient does not show up */
+    background-color: #FF007F;
+    padding: 32px;
+    border-bottom: 5px solid #FF8AC4;
+    height: 124px;
+}
+
+.logoHolder {
+    margin-left: 3rem;
+    float: left;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.logoText {
+    font-size: 2rem;
+    float: left;
+    color: white;
+    line-height: 60px;
+    margin-left: 1rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menuHolder {
+    float: right;
+    margin-right: 3rem;
+    line-height: 60px;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+}
+
+nav li:hover {
+    background-color: #FF007F;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* FOr medium screen sizes from 800px wide and below */
+@media screen and (max-width: 800px) {
+    header {
+        height: 164px;
+    }
+    .menuHolder {
+        margin-left: 2rem;
+        margin-top: 10px;
+        clear: left;
+        float: left;
+        line-height: 30px;
+    }
+    nav li:hover {
+        background-color: #FF8AC4;
+    }
+}
+
+/* For smartphone screen sizes 600px and below */
+@media screen and (max-width: 600px) {
+    .menuHolder{
+        margin-right: 1rem;
+    }
+    nav li {
+        margin: 0 5px 0 5px;
+        padding: 0 5px 0 5px;
+        font-size: 14px;
+    }
 }

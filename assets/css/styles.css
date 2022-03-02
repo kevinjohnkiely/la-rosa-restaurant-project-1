@@ -137,9 +137,13 @@ nav a {
     color: #008873;
 }
 
+/* Call To Action panels section */
+
 #call-to-action-panels-holder {
     margin: 0 4rem 8rem 4rem;
-    height: 250px;
+    /* height: 250px; */
+    display: block;
+    overflow: hidden;    
 }
 
 #call-to-action-panels-holder>div {
@@ -202,6 +206,12 @@ footer {
 
     nav li:hover {
         background-color: #FF8AC4;
+    }
+
+    #call-to-action-panels-holder>div {
+        width: 100%;
+        float: left;
+        margin-bottom: 2rem;
     }
 }
 

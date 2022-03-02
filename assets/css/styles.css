@@ -19,7 +19,7 @@ header {
     background-image: linear-gradient(to left, #75003A, #FF007F);
     /* fallback color if gradient does not show up */
     background-color: #FF007F;
-    padding: 32px;
+    padding: 2rem;
     /* border-bottom: 5px solid #FF8AC4; */
     border-bottom: 5px solid #008873;
     height: 124px;
@@ -78,6 +78,7 @@ nav a {
     overflow: hidden;
     position: relative;
 }
+
 #hero-image {
     height: 500px;
     width: 100%;
@@ -111,6 +112,65 @@ nav a {
     /* background-color: rgba(255, 0, 127, 0.5); */
 }
 
+#intro-text {
+    margin: 4rem;
+}
+
+#intro-text h1 {
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #008873;
+}
+
+#intro-text p {
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+#intro-text a {
+    color: #FF007F;
+}
+
+#intro-text a:hover {
+    color: #008873;
+}
+
+#call-to-action-panels-holder {
+    margin: 0 4rem 8rem 4rem;
+    height: 250px;
+}
+
+#call-to-action-panels-holder>div {
+    width: 31%;
+    margin: 1%;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+#top-image img {
+    width: 100%;
+    /* height: fit-content; */
+}
+
+#link-panel a {
+    background-color: #75003A;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    width: 100%;
+}
+
+#link-panel a:hover {
+    background-color: #FF007F;
+}
+
 /* Footer section */
 footer {
     padding: 4rem;
@@ -126,9 +186,12 @@ footer {
     header {
         height: 164px;
     }
-    #hero-holder, #hero-image {
+
+    #hero-holder,
+    #hero-image {
         height: 400px;
     }
+
     #menu-holder {
         margin-left: 2rem;
         margin-top: 10px;
@@ -136,6 +199,7 @@ footer {
         float: left;
         line-height: 30px;
     }
+
     nav li:hover {
         background-color: #FF8AC4;
     }
@@ -143,23 +207,29 @@ footer {
 
 /* For smartphone screen sizes 600px and below */
 @media screen and (max-width: 600px) {
-    #hero-holder, #hero-image {
+
+    #hero-holder,
+    #hero-image {
         height: 300px;
     }
+
     #hero-overlay-text-box {
         padding: 4rem;
         position: absolute;
         /* left: 15%; */
         top: 15%;
     }
+
     #menu-holder {
         margin-right: 1rem;
     }
+
     nav li {
         margin: 0 5px 0 5px;
         padding: 0 5px 0 5px;
         font-size: 14px;
     }
+
     footer {
         padding: 2rem;
         font-size: smaller;

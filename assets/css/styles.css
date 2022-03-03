@@ -13,6 +13,28 @@ body {
     color: #3a3a3a;
 }
 
+h1 {
+    font-size: 2.2rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #008873;
+}
+
+h2 {
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #75003A;
+}
+
+hr {
+    border-top: 2px dotted #75003A;
+    width: 100%;
+    margin: 3rem 0 3rem 0;
+}
+
 /* Header section */
 
 header {
@@ -101,31 +123,26 @@ nav a {
     }
 }
 
+.hero-h1 {
+    color: white;
+    margin-bottom: 0;
+}
+
 #hero-overlay-text-box {
     color: white;
     letter-spacing: 5px;
     padding: 4rem;
     position: absolute;
-    /* left: 15%; */
     top: 33%;
     background-color: rgba(0, 136, 115, 0.7);
-    /* background-color: rgba(255, 0, 127, 0.5); */
 }
 
 #intro-text {
     margin: 4rem;
 }
 
-#intro-text h1 {
-    font-size: 35px;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-bottom: 2rem;
-    color: #008873;
-}
-
 #intro-text p {
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     text-align: center;
 }
 
@@ -141,8 +158,6 @@ nav a {
 
 #call-to-action-panels-holder {
     margin: 0 4rem 8rem 4rem;
-    /* height: 250px; */
-    display: block;
     overflow: hidden;    
 }
 
@@ -175,11 +190,72 @@ nav a {
     background-color: #FF007F;
 }
 
+/* ABOUT US page styles */
+#about-us {
+    margin: 4rem;
+}
+
+.about-us-row {
+    overflow: hidden;
+}
+
+.para-1 {
+    padding: 0 2rem 1rem 0;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.para-2 {
+    padding: 0 0 0 2rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.about-us-box img {
+    padding: 0;
+
+    border: 5px solid #00705D;
+}
+
+#page-banner-image {
+    margin: 0 4rem 0 4rem;
+    /* height: 200px; */
+    border-bottom: 2px solid #75003A;
+}
+
+#page-banner-image > img {
+    width: 100%;
+}
+
+#about-us-caption {
+    padding: 3rem;
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+}
+
+#about-us-panel-holder {
+    margin: 0 4rem 0 4rem;
+    overflow: hidden;
+}
+
+.about-us-box {
+    float: left;
+    width: 50%;
+}
+
+.about-us-box img {
+    width: 100%;
+}
+
 /* Footer section */
 footer {
     padding: 4rem;
     text-align: center;
     color: white;
+    background-color: #008873;
+    background-image: linear-gradient(to left, #008873, #00705D);
+    /* fallback color if gradient does not show up */
     background-color: #008873;
 }
 
@@ -188,7 +264,8 @@ footer {
 /* For medium screen sizes from 800px wide and below */
 @media screen and (max-width: 800px) {
     header {
-        height: 164px;
+        height: 148px;
+        padding: 1rem;
     }
 
     #hero-holder,
@@ -212,6 +289,11 @@ footer {
         width: 100%;
         float: left;
         margin-bottom: 2rem;
+    }
+
+    .about-us-box {
+        float: left;
+        width: 100%;
     }
 }
 

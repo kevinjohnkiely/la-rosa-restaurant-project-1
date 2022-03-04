@@ -93,6 +93,10 @@ nav a {
     color: white;
 }
 
+.active {
+    border-bottom: 5px solid #008873;
+}
+
 /* Hero image section */
 #hero-holder {
     height: 500px;
@@ -191,7 +195,7 @@ nav a {
 }
 
 /* ABOUT US page styles */
-#about-us {
+#about-us, #menu {
     margin: 4rem;
 }
 
@@ -227,7 +231,7 @@ nav a {
     width: 100%;
 }
 
-#about-us-caption {
+#about-us-caption, #menu-caption {
     padding: 3rem;
     text-align: center;
     font-size: larger;
@@ -246,6 +250,16 @@ nav a {
 
 .about-us-box img {
     width: 100%;
+}
+
+/* Menu page section */
+#menu h3, p {
+    text-align: center;
+    line-height: 2rem;
+}
+
+#menu h3 {
+    margin-top: 1rem;
 }
 
 /* Footer section */
@@ -294,6 +308,14 @@ footer {
     .about-us-box {
         float: left;
         width: 100%;
+    }
+
+    .para-1, .para-2 {
+        padding: 0;
+    }
+
+    .para-1 {
+        margin-bottom: 2rem;
     }
 }
 

@@ -162,7 +162,7 @@ nav a {
 
 #call-to-action-panels-holder {
     margin: 0 4rem 8rem 4rem;
-    overflow: hidden;    
+    overflow: hidden;
 }
 
 #call-to-action-panels-holder>div {
@@ -195,7 +195,9 @@ nav a {
 }
 
 /* ABOUT US page styles */
-#about-us, #menu, #contact {
+#about-us,
+#menu,
+#contact {
     margin: 4rem;
 }
 
@@ -227,11 +229,12 @@ nav a {
     border-bottom: 2px solid #75003A;
 }
 
-#page-banner-image > img {
+#page-banner-image>img {
     width: 100%;
 }
 
-#about-us-caption, #menu-caption {
+#about-us-caption,
+#menu-caption {
     padding: 3rem;
     text-align: center;
     font-size: larger;
@@ -253,7 +256,8 @@ nav a {
 }
 
 /* Menu page section */
-#menu h3, #menu p {
+#menu h3,
+#menu p {
     text-align: center;
     line-height: 2rem;
 }
@@ -265,14 +269,13 @@ nav a {
 /* Contact Us section */
 #contact-details {
     padding-bottom: 4rem;
-    width: 50%;
-    margin: 0 auto;
     line-height: 2rem;
-    text-align: left;
+    text-align: center;
 }
 
 #social-icons {
     text-align: center;
+    padding-bottom: 4rem;
 }
 
 #social-icons li {
@@ -283,6 +286,48 @@ nav a {
     font-size: 3rem;
     color: #00705D;
     padding: 1rem;
+}
+
+#social-icons i:hover {
+    color: #75003A;
+}
+
+#contact-form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email] select,
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #FF8AC4;
+    margin-bottom: 1rem;
+}
+
+input[type=submit]{
+    background-color: #75003A;
+    color: white;
+    padding: 1rem 1.4rem;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    background-color: #008873;
+    color: white;
+    padding: 1rem 1.4rem;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #FF007F;
+}
+
+input[type=reset]:hover {
+    background-color: #00705D;
 }
 
 /* Footer section */
@@ -333,7 +378,8 @@ footer {
         width: 100%;
     }
 
-    .para-1, .para-2 {
+    .para-1,
+    .para-2 {
         padding: 0;
     }
 

@@ -253,13 +253,36 @@ nav a {
 }
 
 /* Menu page section */
-#menu h3, p {
+#menu h3, #menu p {
     text-align: center;
     line-height: 2rem;
 }
 
 #menu h3 {
     margin-top: 1rem;
+}
+
+/* Contact Us section */
+#contact-details {
+    padding-bottom: 4rem;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 2rem;
+    text-align: left;
+}
+
+#social-icons {
+    text-align: center;
+}
+
+#social-icons li {
+    display: inline-block;
+}
+
+#social-icons i {
+    font-size: 3rem;
+    color: #00705D;
+    padding: 1rem;
 }
 
 /* Footer section */

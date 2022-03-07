@@ -330,6 +330,14 @@ input[type=reset]:hover {
     background-color: #00705D;
 }
 
+#submitted-link {
+    color: #FF007F;
+}
+
+#submitted-link:hover {
+    color: #008873;
+}
+
 /* Footer section */
 footer {
     padding: 4rem;

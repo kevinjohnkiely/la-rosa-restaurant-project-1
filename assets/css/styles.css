@@ -379,6 +379,19 @@ footer {
         background-color: #FF8AC4;
     }
 
+    #about-us, #menu, #contact {
+        margin: 3rem;
+    }
+
+    #page-banner-image {
+        margin: 0 3rem 0 3rem;
+    }
+
+    #page-banner-image>img {
+        min-height: 200px;
+        object-fit: cover;
+    }
+
     #call-to-action-panels-holder>div {
         width: 100%;
         float: left;
@@ -427,6 +440,22 @@ footer {
         margin-right: 1rem;
     }
 
+    #page-banner-image {
+        margin: 0 1.6rem 0 1.6rem;
+    }
+
+    #about-us-caption, #menu-caption {
+        padding: 1.6rem;
+    }
+
+    #about-us-panel-holder {
+        margin: 0 1.6rem 0 1.6rem;
+    }
+
+    .about-us-box > h2 {
+        padding-top: 2rem;
+    }
+
     #intro-text {
         margin: 2rem;
     }
@@ -450,5 +479,18 @@ footer {
     footer {
         padding: 2rem;
         font-size: smaller;
+    }
+}
+
+/* For ultra small screen sizes 400px and below, fix for navigation menu */
+@media screen and (max-width: 400px) {
+    nav li {
+        margin: 0 2px 0 2px;
+        padding: 0 2px 0 2px;
+        font-size: 0.75rem;
+    }
+
+    #menu-holder {
+        line-height: 20px;
     }
 }

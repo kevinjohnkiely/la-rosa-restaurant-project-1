@@ -388,7 +388,7 @@ footer {
     }
 
     #page-banner-image>img {
-        min-height: 200px;
+        min-height: 10rem;
         object-fit: cover;
     }
 
@@ -401,6 +401,10 @@ footer {
     .about-us-box {
         float: left;
         width: 100%;
+    }
+
+    .about-us-box > h2 {
+        padding-top: 2rem;
     }
 
     .para-1,
@@ -474,6 +478,15 @@ footer {
         margin: 0 5px 0 5px;
         padding: 0 5px 0 5px;
         font-size: 14px;
+    }
+
+    #page-banner-image>img {
+        min-height: 7rem;
+        object-fit: cover;
+    }
+
+    .para-2 {
+        margin-bottom: 2rem;
     }
 
     footer {

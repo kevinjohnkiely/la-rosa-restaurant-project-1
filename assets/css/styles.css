@@ -419,6 +419,10 @@ footer {
     #call-to-action-panels-holder {
         margin: 0 4rem 3rem 4rem;
     }
+
+    #contact-form {
+        width: 66%;
+    }
 }
 
 /* For smartphone screen sizes 600px and below */
@@ -474,6 +478,10 @@ footer {
         margin: 1.6rem;
     }
 
+    #menu {
+        margin-bottom: 2.5rem;
+    }
+
     nav li {
         margin: 0 5px 0 5px;
         padding: 0 5px 0 5px;
@@ -487,6 +495,19 @@ footer {
 
     .para-2 {
         margin-bottom: 2rem;
+    }
+
+    #social-icons {
+        padding-bottom: 2rem;
+    }
+
+    #social-icons i {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    #contact-form {
+        width: 80%;
     }
 
     footer {
@@ -505,5 +526,9 @@ footer {
 
     #menu-holder {
         line-height: 20px;
+    }
+
+    input[type=submit] {
+        margin-bottom: 0.5rem;
     }
 }

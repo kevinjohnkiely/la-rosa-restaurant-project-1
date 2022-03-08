@@ -147,7 +147,7 @@ nav a {
 
 #intro-text p {
     line-height: 1.8rem;
-    text-align: center;
+    text-align: justify;
 }
 
 #intro-text a {
@@ -306,7 +306,7 @@ textarea {
     margin-bottom: 1rem;
 }
 
-input[type=submit]{
+input[type=submit] {
     background-color: #75003A;
     color: white;
     padding: 1rem 1.4rem;
@@ -363,6 +363,10 @@ footer {
         height: 400px;
     }
 
+    #hero-overlay-text-box {
+        padding: 2rem;
+    }
+
     #menu-holder {
         margin-left: 2rem;
         margin-top: 10px;
@@ -394,6 +398,10 @@ footer {
     .para-1 {
         margin-bottom: 2rem;
     }
+
+    #call-to-action-panels-holder {
+        margin: 0 4rem 3rem 4rem;
+    }
 }
 
 /* For smartphone screen sizes 600px and below */
@@ -404,15 +412,33 @@ footer {
         height: 300px;
     }
 
+    .hero-h1 {
+        font-size: 1.6rem;
+    }
+
     #hero-overlay-text-box {
-        padding: 4rem;
+        padding: 2rem;
         position: absolute;
         /* left: 15%; */
-        top: 15%;
+        top: 33%;
     }
 
     #menu-holder {
         margin-right: 1rem;
+    }
+
+    #intro-text {
+        margin: 2rem;
+    }
+
+    #call-to-action-panels-holder {
+        margin: 2rem;
+    }
+
+    #about-us,
+    #menu,
+    #contact {
+        margin: 1.6rem;
     }
 
     nav li {

@@ -95,6 +95,7 @@ This is the landing page of the site which is what the user first sees on loadin
 
 ### About Us Page
 This is the second page of the website and serves as a description of the owners and history of the restaurant. 2 medium sized images showing the owner and the premises will be placed alongside the relevant description text. This gives the user a good feel for what the business is all about by showing the point of contact (the owner), and displaying the person(s) behind the company.
+
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/about-us.png">
 
 ### Menu Page
@@ -108,12 +109,22 @@ This page will display a typical daily menu of food on offer at the restaurant. 
 
 ### Contact Us Page
 This page clearly displays the contact details of the restaurant and also a contact form should the user wish to submit any queries in that manner. Also included on this page will be a map showing the directions to the restaurant.
+
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/contact.png">
 
 ### Thank You Page
 This page appears only after the user has submitted a request using the contact form, and gives the user good visual feedback that the form has submitted. A link is present to enable the user to navigate back to the home page.
+
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/thankyou.png">
 
 ### 404 Error Page
 This page is used to catch any errors caused by the user entering a URL that does not exist on the website.
+
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/404.png">
+
+# Technologies Used
+The following is a list of the various technologies employed to build this project
++ HTML5 - Hypertext markup language used to give the website its overall structure and semantic value.
++ CSS3 - Cascading Style Sheets used to apply consistant styles across all sections of the application.
++ Google Fonts - Font is embedded into the website by way of importing the correct google font link into the linked CSS file.
++ Font Awesome - Fontawesome toolkit imported into HTML files and its icons used to show social media links.

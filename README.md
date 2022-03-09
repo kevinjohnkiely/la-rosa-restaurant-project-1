@@ -61,7 +61,7 @@ The colours used throughout the website are (and their Hexadecimal code):
 + Dark Grey (body text) #3a3a3a
 
 ### Images
-All image content for the project was sourced from [Pexels](https://www.pexels.com/)
+All image content for the project was sourced from [Pexels](https://www.pexels.com/). The logo came from the ICONPACKS website [Link](https://www.iconpacks.net/free-icon/flower-1537.html)
 
 ### Fonts
 Just one font was used throughout the website, with varying weight for headings and body text.
@@ -141,6 +141,9 @@ The following is a list of the various technologies employed to build this proje
 ## Cross-Browser Testing
 I have tested this website across the 3 main web browsers used today, Google Chrome, Microsoft Edge & Mozilla Firefox. The site loaded consistently across all 3 and no discrepancies were detected.
 
+## Compatibility Testing
+I tested the site across differing devices, such as the Nokia 4.2 smartphone with Android 11, Lenovo Ideapad 3 laptop with different browsers on Windows 11, and on a Dell Studio laptop with different browsers on a Linux Mint operating system. No issues were reported between these devices.
+
 ## Responsiveness Testing
 During development of this application, I regularly tested the responsiveness of the site using Google Chromes Developer tools. In my CSS media query rules, I used 4 separate break points to design the site for different screen sizes.
 
@@ -149,3 +152,28 @@ During development of this application, I regularly tested the responsiveness of
 + 400px width and below (ultra small screen size)*
 
 *Originally I had intended to use just the first 2 screen size breakpoints, however the main menu was not appearing as required using the 600px breakpoint so I added a smaller 400px rule.
+
+### The Header
+The header of the site, comprising of logo and navigation bar, spans the full width of the page on higher screen sizes above 800px, however once the viewport reduces to below this width, the menu stacks underneath the logo, with the necessary padding and margins adjusted so it looks well on even smaller viewports below 600 and 400px widths.
+
+<img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/header-smaller.png">
+
+### The Footer
+The footer of the website is a very simple feature with a text paragraph only and this responds well to various screen sizes, the text simply moving onto multiple lines on the smaller viewports.
+
+<img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/footer-smaller.png">
+
+### Banner Image
+The banner images which appear on all pages except for the homepage, resize naturally on different screen sizes due to a width of 100% being applied to the image. However, I felt that on smaller screen sizes this squashed the image too much, and made it far too small to view. Thus, on the smaller viewports I made sure this banner image had a minimum height and also had the "object fit" property so that it scaled without any skewing or distortion of the original image.
+
+<img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/banner-smaller.png">
+
+### Hero Image
+The hero image on the homepage resizes automatically for smaller viewports, the caption text and padding that is overlayed also resizes due to reduced font size and padding.
+
+<img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/hero-smaller.png">
+
+### Homepage Content - Intro Text & Call To Action Panels
+The introductory text section of homepage (image below, left) scales nicely to smaller screen widths as it is just centered text with paddings and margins adjusted accordingly. The Call To Action section of the homepage (image below, right) orginates as a panel with 3 columns showing images and links, but on less than 800px screen widths, this changes to a single column with all 3 boxes stacked vertically.
+<div style="width: 50%; float:left"><img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/intro-smaller.png"></div>
+<div style="width: 50%; float:left"><img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/call-to-action-smaller.png"></div>

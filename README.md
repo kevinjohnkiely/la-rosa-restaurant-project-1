@@ -122,9 +122,30 @@ This page is used to catch any errors caused by the user entering a URL that doe
 
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/404.png">
 
+<hr>
+
 # Technologies Used
 The following is a list of the various technologies employed to build this project
 + HTML5 - Hypertext markup language used to give the website its overall structure and semantic value.
 + CSS3 - Cascading Style Sheets used to apply consistant styles across all sections of the application.
 + Google Fonts - Font is embedded into the website by way of importing the correct google font link into the linked CSS file.
 + Font Awesome - Fontawesome toolkit imported into HTML files and its icons used to show social media links.
++ Git, Github & Gitpod - Used to continuously develop and deploy the incremental versions of the application.
++ Balsamiq Wireframes - Downloadable software to create the wireframe mockups.
++ GIMP - GNU Image Manipulation Program, used to resize, crop & optimize the image content for embedding on the website.
+
+<hr>
+
+# Testing
+
+## Cross-Browser Testing
+I have tested this website across the 3 main web browsers used today, Google Chrome, Microsoft Edge & Mozilla Firefox. The site loaded consistently across all 3 and no discrepancies were detected.
+
+## Responsiveness Testing
+During development of this application, I regularly tested the responsiveness of the site using Google Chromes Developer tools. In my CSS media query rules, I used 4 separate break points to design the site for different screen sizes.
+
++ 800px width and below (medium screen size)
++ 600px width and below (small screen size)
++ 400px width and below (ultra small screen size)*
+
+*Originally I had intended to use just the first 2 screen size breakpoints, however the main menu was not appearing as required using the 600px breakpoint so I added a smaller 400px rule.

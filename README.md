@@ -75,8 +75,10 @@ Just one font was used throughout the website, with varying weight for headings 
 In terms of general structure throughout the website, the common elements across all 4 pages are the Header and Footer sections
 + The Header - This section will appear at the top of all pages and contains a Logo which stacks to the left, and the navigation menu which is positioned on the right. Both logo and menu will respond accordingly to differing screen sizes. The navigation menu will display which page is currently selected on the site, giving the user good feedback as to their whereabouts.
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/header.png">
+
 + The Footer - This section appears on the bottom of all pages and will contain some copyright information and a date specifying how recently the site has been updated, again giving the user good feedback that this site is actively maintained.
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/footer.png">
+
 + Banner Image - This section replaces the hero image on the homepage and therefore appears on just 3 pages. It will give the usual an extra visual clue of the page content and will appear just below the main page text heading of each page.
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/banner.png">
 
@@ -84,21 +86,34 @@ In terms of general structure throughout the website, the common elements across
 This is the landing page of the site which is what the user first sees on loading, and therefore needs to be visually appealing to gain the users attention. This page is comprised of the following elements:
 + Hero Image - This section spans the full page width and will have relevant image content to give the user a nice first impression of the restaurant. It will have a minimally invasive animation added to attract more attention. Some informative text will be overlayed.
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/hero.png">
+
 + Welcome Text - This section lies underneath the hero image and will be a short description of the restaurant.
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/welcome.png">
+
 + Call-to-action Boxes - This is the third and final section of content that is unique to the homepage. A trio of boxes with related image content and a suitable link to each section of the site (About Us, Menu, Contact Us). This will enhance the user experience by showing them clearly what other content areas are available on the website, and giving them another option to browse rather than just using the main navigation menu.
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/call-to-action.png">
 
 ### About Us Page
 This is the second page of the website and serves as a description of the owners and history of the restaurant. 2 medium sized images showing the owner and the premises will be placed alongside the relevant description text. This gives the user a good feel for what the business is all about by showing the point of contact (the owner), and displaying the person(s) behind the company.
+<img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/about-us.png">
 
 ### Menu Page
 This page will display a typical daily menu of food on offer at the restaurant. It is important to be visually pleasing and readable by the user, and comprehensive in its display of food choices. The sections will be divided under the following headings:
 + Breakfast
-+ Starters
-+ Lunch/Dinner
++ Lunch
++ Dinner
 + Desserts
-+ Drinks Menu
+
+<img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/menu-screenshot.png">
 
 ### Contact Us Page
 This page clearly displays the contact details of the restaurant and also a contact form should the user wish to submit any queries in that manner. Also included on this page will be a map showing the directions to the restaurant.
+<img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/contact.png">
+
+### Thank You Page
+This page appears only after the user has submitted a request using the contact form, and gives the user good visual feedback that the form has submitted. A link is present to enable the user to navigate back to the home page.
+<img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/thankyou.png">
+
+### 404 Error Page
+This page is used to catch any errors caused by the user entering a URL that does not exist on the website.
+<img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/404.png">

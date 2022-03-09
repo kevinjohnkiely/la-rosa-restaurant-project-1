@@ -44,7 +44,30 @@ The following image shows a wireframe of each of the 4 pages of the site. These 
 
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/wireframePNG.png">
 
-## Features
+## Design Decisions
+### Colours
+<img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/colour-scheme.png">
+The colour scheme employed in the project arose from searching for "Rose" Hexademical colour in the following
+website, and using some of the complimentary colour scheme panel.
+
+[Canva Complimentary Colours](https://www.canva.com/colors/color-meanings/rose/)
+
+The colours used throughout the website are (and their Hexadecimal code):
++ Dark Pink #75003A
++ Medium Pink #FF007F
++ Light Pink #FF8AC4
++ Dark Green #00705D
++ Medium Green #008873
++ Dark Grey (body text) #3a3a3a
+
+### Images
+All image content for the project was sourced from [Pexels](https://www.pexels.com/)
+
+### Fonts
+Just one font was used throughout the website, with varying weight for headings and body text.
+[Raleway Font](https://fonts.google.com/specimen/Raleway)
+
+# Features
 
 ### Common Elements
 In terms of general structure throughout the website, the common elements across all 4 pages are the Header and Footer sections

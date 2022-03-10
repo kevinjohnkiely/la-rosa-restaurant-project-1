@@ -176,8 +176,12 @@ The hero image on the homepage resizes automatically for smaller viewports, the 
 ### Homepage Content - Intro Text & Call To Action Panels
 The introductory text section of homepage (image below, left) scales nicely to smaller screen widths as it is just centered text with paddings and margins adjusted accordingly. The Call To Action section of the homepage (image below, right) orginates as a panel with 3 columns showing images and links, but on less than 800px screen widths, this changes to a single column with all 3 boxes stacked vertically.
 
-<div style="width: 500px; float:left"><img style="width: 100%" src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/intro-smaller.png"></div>
-<div style="width: 500px; float:left"><img style="width: 100%"  src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/call-to-action-smaller.png"></div>
+<table>
+<tr>
+<td width="45%"><img style="width: 100%" src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/intro-smaller.png"></td>
+<td width="45%"><img style="width: 100%"  src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/call-to-action-smaller.png"></td>
+</tr>
+</table>
 
 ### About Us Page
 The about us page content is 2 columns of 2 content boxes with alternating blocks of text and image on full size screen sizes, but on 800px and below the content stacks on top of each other into one column, with padding and margin adjustments to suit.
@@ -190,3 +194,14 @@ All content on these pages is positioned in one central column so only margin ne
 <img style="width: 100%" src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/contact-smaller.png">
 
 ## Validator Testing
+
+The HTML of the website was tested using the validator at [https://validator.w3.org/]. The following bugs were discovered:
++ Duplicate ID tags in Homepage "top-image" and "link-panel".
++ Trailing </a> tags which were leftover from deleting a previous anchor tag in development.
++ Duplicate ACTION attribute in the contact form html code, code was orignally ACTION="POST".
+
+All of these errors were corrected and now the entire sites pages passes this validator.
+
+The CSS was tested using the validator at [https://jigsaw.w3.org/css-validator/] and no errors were reported.
+
+<hr>

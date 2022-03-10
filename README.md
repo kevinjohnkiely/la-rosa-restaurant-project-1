@@ -44,29 +44,6 @@ The following image shows a wireframe of each of the 4 pages of the site. These 
 
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/wireframePNG.png">
 
-## Design Decisions
-### Colours
-<img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/colour-scheme.png">
-The colour scheme employed in the project arose from searching for "Rose" Hexademical colour in the following
-website, and using some of the complimentary colour scheme panel.
-
-[Canva Complimentary Colours](https://www.canva.com/colors/color-meanings/rose/)
-
-The colours used throughout the website are (and their Hexadecimal code):
-+ Dark Pink #75003A
-+ Medium Pink #FF007F
-+ Light Pink #FF8AC4
-+ Dark Green #00705D
-+ Medium Green #008873
-+ Dark Grey (body text) #3a3a3a
-
-### Images
-All image content for the project was sourced from [Pexels](https://www.pexels.com/). The logo came from the ICONPACKS website [Link](https://www.iconpacks.net/free-icon/flower-1537.html)
-
-### Fonts
-Just one font was used throughout the website, with varying weight for headings and body text.
-[Raleway Font](https://fonts.google.com/specimen/Raleway)
-
 <hr>
 
 # Features
@@ -239,3 +216,58 @@ During development of the project, I began to consider a couple of methods on ho
 <hr>
 
 # Deployment
+
+### The steps undertaken to deploy this website to Github Pages is as follows:
+
+1. I accessed the Code Institute template at [https://github.com/Code-Institute-Org/gitpod-full-template] and clicked on the "Use This Template" button.
+2. The next step was to give my repository a suitable name on Github, and create it thereafter.
+3. On the following page I clicked on the green Gitpod button, which is accessable having installed the Gitpod extension to Google Chrome browser.
+4. This created my development environment on Gitpod where I began to push the incremental changes to the live hosted site.
+5. To create the hosted site at Github Pages, I navigated to the Github repo settings tab and found the Github pages dedicated section.
+6. From there in the Source dropdown menu I clicked on "main", and then "Save", from which I was supplied a live link that would be ready in a few minutes. Live link is available here [https://kevinjohnkiely.github.io/la-rosa-restaurant-project-1/]
+
+### To run and test this application on your local machine:
+
+1. Navigate to the Github repo at [https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1]
+2. Click on the Code button, then Download ZIP.
+3. Extract the zip file to your local machine.
+4. Run the index.html file in any browser of your choice.
+
+<hr>
+
+# Credits
+
+## Code
++ The code for the hero image with animation on the homepage was taken and modified from the Love Running walkthrough project offered by Code Institute. Some small modifications were made to this code to suit my project.
++ The code for the social icons section on the Contact Us page was also taken from the aforementioned Love Running walkthrough project, with some modifications to suit.
++ The code for the contact form on the Contact Us page was taken and modified to suit from W3 Schools at: [https://www.w3schools.com/howto/howto_css_contact_form.asp]
+
+All other HTML and CSS code was composed by myself.
+
+## Images
+All image content for the project was sourced from [Pexels](https://www.pexels.com/). The logo came from the ICONPACKS website [Link](https://www.iconpacks.net/free-icon/flower-1537.html)
+
+## Fonts
+Just one font was used throughout the website, with varying weight for headings and body text.
+[Raleway Font](https://fonts.google.com/specimen/Raleway)
+
+## Colours
+<img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/colour-scheme.png">
+The colour scheme employed in the project arose from searching for "Rose" Hexademical colour in the following
+website, and using some of the complimentary colour scheme panel.
+
+[Canva Complimentary Colours](https://www.canva.com/colors/color-meanings/rose/)
+
+The colours used throughout the website are (and their Hexadecimal code):
++ Dark Pink #75003A
++ Medium Pink #FF007F
++ Light Pink #FF8AC4
++ Dark Green #00705D
++ Medium Green #008873
++ Dark Grey (body text) #3a3a3a
+
+## Icons
+The social media icons on the contact page were sourced from Font Awesome [https://fontawesome.com/]
+
+## Text Content
+All text content across the application was composed by myself from scratch.

@@ -145,7 +145,7 @@ I have tested this website across the 3 main web browsers used today, Google Chr
 I tested the site across differing devices, such as the Nokia 4.2 smartphone with Android 11, Lenovo Ideapad 3 laptop with different browsers on Windows 11, and on a Dell Studio laptop with different browsers on a Linux Mint operating system. No issues were reported between these devices.
 
 ## Responsiveness Testing
-During development of this application, I regularly tested the responsiveness of the site using Google Chromes Developer tools. In my CSS media query rules, I used 4 separate break points to design the site for different screen sizes.
+During development of this application, I regularly tested the responsiveness of the site using Google Chromes Developer tools. In my CSS media query rules, I used 3 separate break points to design the site for different screen sizes.
 
 + 800px width and below (medium screen size)
 + 600px width and below (small screen size)
@@ -175,5 +175,18 @@ The hero image on the homepage resizes automatically for smaller viewports, the 
 
 ### Homepage Content - Intro Text & Call To Action Panels
 The introductory text section of homepage (image below, left) scales nicely to smaller screen widths as it is just centered text with paddings and margins adjusted accordingly. The Call To Action section of the homepage (image below, right) orginates as a panel with 3 columns showing images and links, but on less than 800px screen widths, this changes to a single column with all 3 boxes stacked vertically.
-<div style="width: 50%; float:left"><img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/intro-smaller.png"></div>
-<div style="width: 50%; float:left"><img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/call-to-action-smaller.png"></div>
+
+<div style="width: 500px; float:left"><img style="width: 100%" src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/intro-smaller.png"></div>
+<div style="width: 500px; float:left"><img style="width: 100%"  src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/call-to-action-smaller.png"></div>
+
+### About Us Page
+The about us page content is 2 columns of 2 content boxes with alternating blocks of text and image on full size screen sizes, but on 800px and below the content stacks on top of each other into one column, with padding and margin adjustments to suit.
+
+<img style="width: 100%" src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/about-smaller.png">
+
+### Menu, Contact, 404 and Thank You Pages
+All content on these pages is positioned in one central column so only margin needed to be adjusted for smaller screen sizes. In the contact page, the form div needed its percentage width to be reduced accordingly. Also on the contact page, the social media icons and the submit/reset buttons stack underneath each other if the site is viewed on very small viewport sizes.
+
+<img style="width: 100%" src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/contact-smaller.png">
+
+## Validator Testing

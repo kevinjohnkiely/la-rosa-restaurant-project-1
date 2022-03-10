@@ -172,12 +172,12 @@ nav a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 
-#top-image img {
+.top-image img {
     width: 100%;
     /* height: fit-content; */
 }
 
-#link-panel a {
+.link-panel a {
     background-color: #75003A;
     text-transform: uppercase;
     border: none;
@@ -190,7 +190,7 @@ nav a {
     width: 100%;
 }
 
-#link-panel a:hover {
+.link-panel a:hover {
     background-color: #FF007F;
 }
 

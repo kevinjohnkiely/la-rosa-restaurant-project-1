@@ -186,12 +186,22 @@ The introductory text section of homepage (image below, left) scales nicely to s
 ### About Us Page
 The about us page content is 2 columns of 2 content boxes with alternating blocks of text and image on full size screen sizes, but on 800px and below the content stacks on top of each other into one column, with padding and margin adjustments to suit.
 
-<img style="width: 100%" src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/about-smaller.png">
+<img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/about-smaller.png">
 
 ### Menu, Contact, 404 and Thank You Pages
 All content on these pages is positioned in one central column so only margin needed to be adjusted for smaller screen sizes. In the contact page, the form div needed its percentage width to be reduced accordingly. Also on the contact page, the social media icons and the submit/reset buttons stack underneath each other if the site is viewed on very small viewport sizes.
 
-<img style="width: 100%" src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/contact-smaller.png">
+<img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/contact-smaller.png">
+
+## User Testing
+All user stories and journeys passed successfully as all required content was available for both first-time and returning users to the site. The navigation was clearly accessible on both desktop and mobile screen sizes, and all information was presented on clearly legible texts with contrasting backgrounds. Graphic elements, while enhancing the look of the site did not detract from the user experience or distract the user while browsing.
+
+### Contact The Restaurant
+The one use case that needed a little extra testing was the contact form on the Contact page. The user enters the required details in the form, and if any of the fields were blank, the HTML5 validations would kick in as pictured below:
+
+<img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/contact-validation.png">
+
+Once all details were entered and the form submitted, the user is directed successfully to the Thank You page.
 
 ## Validator Testing
 

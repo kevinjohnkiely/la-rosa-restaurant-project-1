@@ -218,8 +218,6 @@ nav a {
 }
 
 .about-us-box img {
-    padding: 0;
-
     border: 5px solid #00705D;
 }
 
@@ -298,7 +296,7 @@ nav a {
 }
 
 input[type=text],
-input[type=email] select,
+input[type=email], select,
 textarea {
     width: 100%;
     padding: 1rem;

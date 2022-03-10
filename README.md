@@ -207,11 +207,13 @@ Once all details were entered and the form submitted, the user is directed succe
 
 The HTML of the website was tested using the validator at [https://validator.w3.org/]. The following bugs were discovered:
 + Duplicate ID tags in Homepage "top-image" and "link-panel".
-+ Trailing </a> tags which were leftover from deleting a previous anchor tag in development.
-+ Duplicate ACTION attribute in the contact form html code, code was orignally ACTION="POST".
++ Trailing closing anchor tags which were leftover from deleting a previous anchor tag in development.
++ Duplicate ACTION attribute in the contact form html code, code was orignally ACTION="POST" when it should have been METHOD="POST".
 
 All of these errors were corrected and now the entire sites pages passes this validator.
 
 The CSS was tested using the validator at [https://jigsaw.w3.org/css-validator/] and no errors were reported.
+
+## Errors, Bugs or Issues During Development
 
 <hr>

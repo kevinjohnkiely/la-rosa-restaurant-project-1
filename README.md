@@ -214,6 +214,28 @@ All of these errors were corrected and now the entire sites pages passes this va
 
 The CSS was tested using the validator at [https://jigsaw.w3.org/css-validator/] and no errors were reported.
 
+## Performance Testing
+
+I tested the website performance using Lighthouse in Google Chrome Developer Tools, and was satisfied with the results, varying from 95 to 100%. Results are seen below:
+
+<img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/lighthouse.png">
+
 ## Errors, Bugs or Issues During Development
 
+During development I wanted to use only 2 css breakpoints using media queries at 800 and 600px sizes. However the main menu was not rendering properly on some screen sizes below 600px. One method to rectify this was to further reduce padding and text size, but I found doing this would make the link text extremely small on screen sizes on the lower end of the 600px breakpoint. Thus, I introduced an "ultra small" breakpoint for screen sizes 400px and below. The error in question is shown in following image:
+
+<img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/issue1.png">
+
+This was rectified using the smaller breakpoint and the menu now displays properly on all viewports.
+
+## Considerations for Improvements or Enhancements
+
+During development of the project, I began to consider a couple of methods on how to improve this application in the future and also perhaps use these methods in other future projects:
+
++ Use "Burger" style menu for mobile screen sizes. This would take away the need to style the menu links individually for each screen size, thus the solution would be one burger style menu for all sizes under 800px width.
+
++ Use Flexbox or Grid for site structure. Throughout this application I positioned elements using floats and percentage widths, with margins and paddings in rem units. While I feel I achieved the desired results, a quick research of using flexbox and grid position would have cut my development time and is certainly worth considering for future projects, depending on project size and scope.
+
 <hr>
+
+# Deployment

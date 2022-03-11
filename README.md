@@ -255,6 +255,8 @@ During development of the project, I began to consider a couple of methods on ho
 
 + Ideally the "Back to Top" button on the Menu page should only appear after the user has scrolled down the page some ways, and not always be visible as it is currently. From my research this would be solved using a lot of complex CSS which I felt was outside my timeframe, thus a solution using JavaScript would be an ideal fix in future.
 
++ In the footer, there is text showing when the website was last updated, this is just hardcoded at the moment, but in a future version this website could be connected to a backend with programming scripts to auto-populate this piece of text with the current time and date.
+
 <hr>
 
 # Deployment

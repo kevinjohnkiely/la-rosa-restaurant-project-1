@@ -253,6 +253,8 @@ During development of the project, I began to consider a couple of methods on ho
 
 + Use Flexbox or Grid for site structure. Throughout this application I positioned elements using floats and percentage widths, with margins and paddings in rem units. While I feel I achieved the desired results, a quick research of using flexbox and grid position would have cut my development time and is certainly worth considering for future projects, depending on project size and scope.
 
++ Ideally the "Back to Top" button on the Menu page should only appear after the user has scrolled down the page some ways, and not always be visible as it is currently. From my research this would be solved using a lot of complex CSS which I felt was outside my timeframe, thus a solution using JavaScript would be an ideal fix in future.
+
 <hr>
 
 # Deployment

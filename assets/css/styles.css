@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Raleway, sans-serif;
     font-weight: 300;
@@ -264,6 +268,29 @@ nav a {
     margin-top: 1rem;
 }
 
+#top-button {
+    background-color: #75003A;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+#top-button span {
+    display: inline;
+}
+
+#top-button:hover {
+    background-color: #FF007F;
+}
+
+
 /* Contact Us section */
 #contact-details {
     padding-bottom: 4rem;
@@ -296,7 +323,8 @@ nav a {
 }
 
 input[type=text],
-input[type=email], select,
+input[type=email],
+select,
 textarea {
     width: 100%;
     padding: 1rem;
@@ -373,11 +401,18 @@ footer {
         line-height: 30px;
     }
 
+    #top-button {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.8rem;
+    }
+
     nav li:hover {
         background-color: #FF8AC4;
     }
 
-    #about-us, #menu, #contact {
+    #about-us,
+    #menu,
+    #contact {
         margin: 3rem;
     }
 
@@ -401,7 +436,7 @@ footer {
         width: 100%;
     }
 
-    .about-us-box > h2 {
+    .about-us-box>h2 {
         padding-top: 2rem;
     }
 
@@ -446,11 +481,17 @@ footer {
         margin-right: 1rem;
     }
 
+    
+    #top-button span {
+        display: none;
+    }
+
     #page-banner-image {
         margin: 0 1.6rem 0 1.6rem;
     }
 
-    #about-us-caption, #menu-caption {
+    #about-us-caption,
+    #menu-caption {
         padding: 1.6rem;
     }
 
@@ -458,7 +499,7 @@ footer {
         margin: 0 1.6rem 0 1.6rem;
     }
 
-    .about-us-box > h2 {
+    .about-us-box>h2 {
         padding-top: 2rem;
     }
 

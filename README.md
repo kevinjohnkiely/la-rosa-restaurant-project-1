@@ -4,9 +4,47 @@
 
 This is the website of La Rosa restaurant, a newly opened restaurant in County Limerick, IRELAND. The website will serve as a vital online hub for new and returning customers to gain information about the new restaurant, and for local customers to consider it as a prominent option for eating out.
 
-The main aim of this project is to construct an aesthetic, easily-navigable, responsive and modern website which greatly helps the marketing potential of the newly openend restaurant. It will be constructed using HTML & CSS web coding methods.
+The main aim of this project is to construct an aesthetic, easily-navigable, responsive and modern website which greatly helps the marketing potential of the newly opened restaurant. It will be constructed using HTML & CSS web coding methods.
 
 [Live link to website](https://kevinjohnkiely.github.io/la-rosa-restaurant-project-1/)
+
+<hr>
+
+# Table of Contents
+<!-- TOC start -->
+- [UX (User Experience)](#ux-user-experience)
+  * [Website Owner Business Goals](#website-owner-business-goals)
+  * [User Goals](#user-goals)
+  * [User Stories](#user-stories)
+  * [Wireframes](#wireframes)
+- [Features](#features)
+    + [Common Elements](#common-elements)
+    + [Home Page](#home-page)
+    + [About Us Page](#about-us-page)
+    + [Menu Page](#menu-page)
+    + [Contact Us Page](#contact-us-page)
+    + [Thank You Page](#thank-you-page)
+    + [404 Error Page](#404-error-page)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+  * [Cross-Browser Testing](#cross-browser-testing)
+  * [Compatibility Testing](#compatibility-testing)
+  * [Responsiveness Testing](#responsiveness-testing)
+  * [User Testing](#user-testing)
+  * [Validator Testing](#validator-testing)
+  * [Performance Testing](#performance-testing)
+  * [Errors, Bugs or Issues During Development](#errors-bugs-or-issues-during-development)
+  * [Considerations for Improvements or Enhancements](#considerations-for-improvements-or-enhancements)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  * [Code](#code)
+  * [Images](#images)
+  * [Fonts](#fonts)
+  * [Colours](#colours)
+  * [Icons](#icons)
+  * [Text Content](#text-content)
+<!-- TOC end -->
+<!-- TOC -->
 
 <hr>
 
@@ -37,7 +75,7 @@ The main goal for the business owner is to have this website serve as an online 
 ### As a Returning User
 + I would like to return to the website to check on any changed or recently added new menu items.
 + I would like to browse the site and see if there is any new information such as special offers or discounts for special occasions (Valentines Day etc).
-+ I would like to use the contact form to book a table or check availabilty of certain types of foods.
++ I would like to use the contact form to book a table or check availability of certain types of foods.
 
 ## Wireframes
 The following image shows a wireframe of each of the 4 pages of the site. These wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/).
@@ -82,6 +120,8 @@ This page will display a typical daily menu of food on offer at the restaurant. 
 + Dinner
 + Desserts
 
+This page content has a lot of scrolling so a "Back to Top" button is needed to scroll back to top of page.
+
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/menu-screenshot.png">
 
 ### Contact Us Page
@@ -104,7 +144,7 @@ This page is used to catch any errors caused by the user entering a URL that doe
 # Technologies Used
 The following is a list of the various technologies employed to build this project
 + HTML5 - Hypertext markup language used to give the website its overall structure and semantic value.
-+ CSS3 - Cascading Style Sheets used to apply consistant styles across all sections of the application.
++ CSS3 - Cascading Style Sheets used to apply consistent styles across all sections of the application.
 + Google Fonts - Font is embedded into the website by way of importing the correct google font link into the linked CSS file.
 + Font Awesome - Fontawesome toolkit imported into HTML files and its icons used to show social media links.
 + Git, Github & Gitpod - Used to continuously develop and deploy the incremental versions of the application.
@@ -151,7 +191,7 @@ The hero image on the homepage resizes automatically for smaller viewports, the 
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/hero-smaller.png">
 
 ### Homepage Content - Intro Text & Call To Action Panels
-The introductory text section of homepage (image below, left) scales nicely to smaller screen widths as it is just centered text with paddings and margins adjusted accordingly. The Call To Action section of the homepage (image below, right) orginates as a panel with 3 columns showing images and links, but on less than 800px screen widths, this changes to a single column with all 3 boxes stacked vertically.
+The introductory text section of homepage (image below, left) scales nicely to smaller screen widths as it is just centered text with paddings and margins adjusted accordingly. The Call To Action section of the homepage (image below, right) originates as a panel with 3 columns showing images and links, but on less than 800px screen widths, this changes to a single column with all 3 boxes stacked vertically.
 
 <table>
 <tr>
@@ -185,7 +225,7 @@ Once all details were entered and the form submitted, the user is directed succe
 The HTML of the website was tested using the validator at [https://validator.w3.org/]. The following bugs were discovered:
 + Duplicate ID tags in Homepage "top-image" and "link-panel".
 + Trailing closing anchor tags which were leftover from deleting a previous anchor tag in development.
-+ Duplicate ACTION attribute in the contact form html code, code was orignally ACTION="POST" when it should have been METHOD="POST".
++ Duplicate ACTION attribute in the contact form html code, code was originally ACTION="POST" when it should have been METHOD="POST".
 
 All of these errors were corrected and now the entire sites pages passes this validator.
 
@@ -199,7 +239,7 @@ I tested the website performance using Lighthouse in Google Chrome Developer Too
 
 ## Errors, Bugs or Issues During Development
 
-During development I wanted to use only 2 css breakpoints using media queries at 800 and 600px sizes. However the main menu was not rendering properly on some screen sizes below 600px. One method to rectify this was to further reduce padding and text size, but I found doing this would make the link text extremely small on screen sizes on the lower end of the 600px breakpoint. Thus, I introduced an "ultra small" breakpoint for screen sizes 400px and below. The error in question is shown in following image:
+During development I wanted to use only 2 CSS breakpoints using media queries at 800 and 600px sizes. However the main menu was not rendering properly on some screen sizes below 600px. One method to rectify this was to further reduce padding and text size, but I found doing this would make the link text extremely small on screen sizes on the lower end of the 600px breakpoint. Thus, I introduced an "ultra small" breakpoint for screen sizes 400px and below. The error in question is shown in following image:
 
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/issue1.png">
 
@@ -221,7 +261,7 @@ During development of the project, I began to consider a couple of methods on ho
 
 1. I accessed the Code Institute template at [https://github.com/Code-Institute-Org/gitpod-full-template] and clicked on the "Use This Template" button.
 2. The next step was to give my repository a suitable name on Github, and create it thereafter.
-3. On the following page I clicked on the green Gitpod button, which is accessable having installed the Gitpod extension to Google Chrome browser.
+3. On the following page I clicked on the green Gitpod button, which is accessible having installed the Gitpod extension to Google Chrome browser.
 4. This created my development environment on Gitpod where I began to push the incremental changes to the live hosted site.
 5. To create the hosted site at Github Pages, I navigated to the Github repo settings tab and found the Github pages dedicated section.
 6. From there in the Source dropdown menu I clicked on "main", and then "Save", from which I was supplied a live link that would be ready in a few minutes. Live link is available here [https://kevinjohnkiely.github.io/la-rosa-restaurant-project-1/]

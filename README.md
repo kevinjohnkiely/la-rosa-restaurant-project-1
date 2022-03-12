@@ -82,6 +82,8 @@ The following image shows a wireframe of each of the 4 pages of the site. These 
 
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/wireframePNG.png">
 
+[Back to Table of Contents](https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1#table-of-contents)
+
 <hr>
 
 # Features
@@ -94,7 +96,7 @@ In terms of general structure throughout the website, the common elements across
 + The Footer - This section appears on the bottom of all pages and will contain some copyright information and a date specifying how recently the site has been updated, again giving the user good feedback that this site is actively maintained.
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/footer.png">
 
-+ Banner Image - This section replaces the hero image on the homepage and therefore appears on just 3 pages. It will give the usual an extra visual clue of the page content and will appear just below the main page text heading of each page.
++ Banner Image - This section replaces the hero image on the homepage and therefore appears on just 3 pages. It will give the user an extra visual clue of the page content and will appear just below the main page text heading of each page.
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/banner.png">
 
 ### Home Page
@@ -125,7 +127,7 @@ This page content has a lot of scrolling so a "Back to Top" button is needed to 
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/menu-screenshot.png">
 
 ### Contact Us Page
-This page clearly displays the contact details of the restaurant and also a contact form should the user wish to submit any queries in that manner. Also included on this page will be a map showing the directions to the restaurant.
+This page clearly displays the contact details of the restaurant and also a contact form should the user wish to submit any queries in that manner.
 
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/contact.png">
 
@@ -139,6 +141,8 @@ This page is used to catch any errors caused by the user entering a URL that doe
 
 <img src="https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/blob/main/wireframesScreenshots/404.png">
 
+[Back to Table of Contents](https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1#table-of-contents)
+
 <hr>
 
 # Technologies Used
@@ -150,6 +154,8 @@ The following is a list of the various technologies employed to build this proje
 + Git, Github & Gitpod - Used to continuously develop and deploy the incremental versions of the application.
 + Balsamiq Wireframes - Downloadable software to create the wireframe mockups.
 + GIMP - GNU Image Manipulation Program, used to resize, crop & optimize the image content for embedding on the website.
+
+[Back to Table of Contents](https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1#table-of-contents)
 
 <hr>
 
@@ -257,6 +263,8 @@ During development of the project, I began to consider a couple of methods on ho
 
 + In the footer, there is text showing when the website was last updated, this is just hardcoded at the moment, but in a future version this website could be connected to a backend with programming scripts to auto-populate this piece of text with the current time and date.
 
+[Back to Table of Contents](https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1#table-of-contents)
+
 <hr>
 
 # Deployment
@@ -276,6 +284,8 @@ During development of the project, I began to consider a couple of methods on ho
 2. Click on the Code button, then Download ZIP.
 3. Extract the zip file to your local machine.
 4. Run the index.html file in any browser of your choice.
+
+[Back to Table of Contents](https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1#table-of-contents)
 
 <hr>
 
@@ -315,3 +325,5 @@ The social media icons on the contact page were sourced from Font Awesome [https
 
 ## Text Content
 All text content across the application was composed by myself from scratch.
+
+[Back to Table of Contents](https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1#table-of-contents)
